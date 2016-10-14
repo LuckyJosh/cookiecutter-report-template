@@ -1,0 +1,25 @@
+\input{../common/header.tex}
+
+\subject{ {{cookiecutter.experiment_number}} }
+\title{ {{cookiecutter.experiment_title}} }
+\date{
+  Durchführung: \printdate{ {{cookiecutter.conduct_date}} }
+  \hspace{1em}
+  Abgabe: \printdate{ {{cookiecutter.due_date}} }
+}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+\tableofcontents
+\newpage
+
+\input{content/theorie.tex}
+\input{content/durchfuehrung.tex}
+\input{content/auswertung.tex}
+\input{content/diskussion.tex}
+
+\printbibliography
+
+\end{document}

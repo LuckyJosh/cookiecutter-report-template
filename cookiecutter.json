@@ -1,0 +1,8 @@
+{
+    "experiment_title": "Elektronen im E- und B-Feld",
+    "experiment_short_title":"ElektronenEBFeld",
+    "experiment_number": "V501/2",
+    "conduct_date": "{% now 'local' %}",
+    "due_date": "{% now 'local' + 'days=7'%}",
+    "_extensions": ["jinja2_time.TimeExtension"]
+}
