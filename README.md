@@ -8,6 +8,12 @@ Requirements
 ------------
 Install `cookiecutter` command line: `pip install cookiecutter`    
 
+Source
+------------
+The files used for this template are taken from the materials section of the
+[Toolbox Workshop 2016](http://toolbox.pep-dortmund.org/notes.html) and will be
+kept up todate.
+
 Usage
 -----
 Generate a new Cookiecutter template layout: `cookiecutter gh:LuckyJosh/cookiecutter-report-template`    
